@@ -1,5 +1,5 @@
 <?php
-
+// POST , GET, PUT, DELETE
 //Database connection
 
 function connectDB(){
@@ -22,7 +22,7 @@ function  initImigration($pdo){
     last_name varchar(255) NOT NULL, age int NOT NULL);');
 
     $statement->execute();
-    
+
   }catch(PDOException $e){
     echo "<h4 style='color:red;'>". $e->getMessage()." create table</h4>";
   }

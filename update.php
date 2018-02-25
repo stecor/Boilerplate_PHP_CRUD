@@ -65,6 +65,6 @@ if(isset($_GET["id"])){
       <button type="submit">Save</button>
 
     </form>
-    <a href="/read.php?show=all">Go Back</a>
+    <a href="/">Go Back</a>
   </body>
 </html>
